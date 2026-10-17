@@ -507,7 +507,8 @@ button, input, select, textarea { font: inherit; color: inherit; }
   position: absolute;
   inset: 16%;
   border-radius: 50%;
-  border: 1px dashed rgba(255, 255, 255, 0.08);
+  border: 1px dashed rgba(255, 255, 255, 0.16);
+  animation: spin 30s linear infinite reverse;
 }
 
 .frame__core {
